@@ -1,1 +1,1 @@
-web: gunicorn clue-chasers.wsgi
+web: gunicorn clue_chasers.wsgi
