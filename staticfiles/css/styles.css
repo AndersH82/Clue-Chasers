@@ -6,9 +6,11 @@
 .btn.btn-navbar {
     background-color: navy;
     border-color: goldenrod;
+    border: 2px solid goldenrod;
     color: white;
     margin: 10px;
-    border-bottom: 2px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    border-right: 4px solid goldenrod;
 }
 
 .btn.btn-navbar:hover {
@@ -32,7 +34,7 @@ span.navbar-toggler-icon {
     background-color: navy;
     border-color: goldenrod;
     color: white;
-    border-bottom: 1px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
 }
 
 a {
@@ -43,13 +45,6 @@ a {
 a:hover {
     text-decoration: none;
     color: #FFFFFF;
-}
-
-div.offcanvas {
-    background-color: navy;
-    border-color: goldenrod;
-    color: white;
-    margin-top: 86px;
 }
 
 ul.dropdown-menu {
@@ -68,18 +63,29 @@ a.dropdown-item:hover {
     color: white;
 }
 
+.btn.close {
+    color: goldenrod;
+}
+
 /* side bar */
+
+div.offcanvas {
+    background-color: navy;
+    border-right:3px solid goldenrod;
+    color: white;
+    margin-top: 86px;
+}
 
 .btn.btn-sidebar {
     background-color: navy;
     border-color: goldenrod;
+    border: 2px solid goldenrod;
     color: white;
     margin: 10px;
-    border-bottom: 2px solid goldenrod;
-}
-
-i {
-    color: goldenrod;
+    border-bottom: 4px solid goldenrod;
+    border-right: 4px solid goldenrod;
+    width: 70px;
+    height: 50px;
 }
 
 .btn.btn-sidebar:hover {
@@ -89,6 +95,9 @@ i {
     margin: 10px;
 }
 
+i {
+    color: goldenrod;
+}
 
 
 /* base.html */
