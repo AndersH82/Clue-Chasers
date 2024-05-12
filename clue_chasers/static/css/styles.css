@@ -67,11 +67,36 @@ a.dropdown-item:hover {
     background-color: blue;
     color: white;
 }
+
+/* side bar */
+
+.btn.btn-sidebar {
+    background-color: navy;
+    border-color: goldenrod;
+    color: white;
+    margin: 10px;
+    border-bottom: 2px solid goldenrod;
+}
+
+i {
+    color: goldenrod;
+}
+
+.btn.btn-sidebar:hover {
+    background-color: blue;
+    border-color: goldenrod;
+    color: white;
+    margin: 10px;
+}
+
+
+
 /* base.html */
 
 body {
     background-color: navy;
     color: white;
 }
+
 
 /* footer */
