@@ -1,5 +1,8 @@
 /* navbar */
-
+.ch-text {
+    color: goldenrod;
+    margin-right: 20px;
+}
 .btn.btn-navbar {
     background-color: navy;
     border-color: goldenrod;
