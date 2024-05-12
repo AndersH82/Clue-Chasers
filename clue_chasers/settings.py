@@ -46,7 +46,7 @@ ROOT_URLCONF = 'clue_chasers.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'clue_chasers/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
